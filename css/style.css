@@ -51,7 +51,7 @@ a:focus {
 	text-decoration: none;
 }
 
-.fa {
+.fas, .fab {
 	margin-right: 5px;
 	margin-left: 5px;
 }
@@ -237,7 +237,7 @@ h3.clr3 {
 	}
 
 	.details_header li {
-		width: 16%;
+		width: 15%;
 		padding-right: 0;
 	}
 
