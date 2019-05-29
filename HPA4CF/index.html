@@ -138,13 +138,64 @@
           <!--<h2 class="h1 text-center mb-5">Objective</h2>-->
           <!--Section description-->
 
-<p class="mb-5 pb-5">
-In recent years, more and more scenarios pose challenges that require Collective Intelligence solutions based on networks (e.g., knowledge networks, social networks, sensor networks), <a href="https://ec.europa.eu/digital-single-market/en/collective-awareness">enabling novel ways of social production, promoting innovation and encouraging the exchange of ideas</a>. New forms of collaborative consumption, collaborative making, collaborative production, all rely on a common and fundamental task, i.e., the formation of collectives. Hence, the computation of policies for Collective Intelligence scenarios plays a crucial role in many real-world applications domains, where groups need to be formed in order to complete tasks and achieve costs reductions, both for individuals and for the entire collective.
-During my MSCA project I tackled two prominent Collective Intelligence scenarios, namely <strong>shared mobility</strong> and <strong>cooperative learning</strong>, developing novel AI optimisation algorithms that can deal with the associated computational challenges, quantify the potential benefits, and, ultimately, help policy makers to take better collective decisions.
-</p>
+          <p class="mb-5">
+In recent years, more and more scenarios pose challenges that require Collective Intelligence solutions based on networks (e.g., knowledge networks, social networks, sensor networks), <a href="https://ec.europa.eu/digital-single-market/en/collective-awareness">enabling novel ways of social production, promoting innovation and encouraging the exchange of ideas</a>. New forms of collaborative consumption, collaborative making, collaborative production, all rely on a common and fundamental task, i.e., the formation of collectives. Hence, the computation of policies for Collective Intelligence scenarios plays a crucial role in many real-world applications domains, where groups need to be formed in order to complete tasks and achieve costs reductions, both for individuals and for the entire collective. During my MSCA project I tackled two prominent Collective Intelligence scenarios, namely <strong>shared mobility</strong> and <strong>cooperative learning</strong>, developing novel AI optimisation algorithms that can deal with the associated computational challenges, quantify the potential benefits, and, ultimately, help policy makers to take better collective decisions.
+          </p>
+
+          <h3 class="mb-3 font-weight-bold dark-grey-text">
+            <strong>Computing Sustainable Policies for Online Ridesharing</strong>
+          </h3>
+
+          <p>
+With the growing popularity of the shared economy, ridesharing services are called to transform urban mobility. Indeed, shared mobility is expected to have major environmental and economic impacts by reducing pollution (e.g., CO₂ emissions and noise pollution), traffic congestion, and energy consumption <a href="https://doi.org/10.1016/j.pecs.2016.12.004">[FZC17]</a>. Furthermore, ridesharing is said to become even much more attractive in a future world of self-driving cars, and spur a transition from solo driving to mass transit. Along these lines, the growing efforts in research and technology, together with novel incentive policies for shared mobility and efficient market designs will play a crucial role for the exploitation of the full potential of ridesharing, and for the revolution of the current practice in personal transportation. Despite its major potential benefits, ridesharing is nowadays still far from being widely used (<a href="https://factfinder.census.gov/bkmk/table/1.0/en/ACS/16_5YR/S0801/0100000US">according to the US Census Bureau</a>, only around 9.3% of commuters in the US carpooled to work, compared to 76.4% who drove alone). Because of the growing concerns about climate change, congestion, and oil dependency, further research is needed to understand the benefits of ridesharing, while also considering time and privacy requirements of users. One of the reasons of this insufficient engagement by the public is the lack of effective incentive policies by regulatory authorities, who do not possess the necessary computational tools capable of quantifying the costs and the benefits of a given ridesharing adoption policy.
+          </p>
+
+          <p>
+During my project I addressed these issues by (i) developing a novel algorithm that makes large-scale, realtime ridesharing technologically feasible; and (ii) exhaustively quantifying the impact of different ridesharing policies in terms of environmental benefits (i.e., reduction of CO₂ emissions, noise pollution, and traffic congestion) and quality of service (QoS) for the users.
+          </p>
+
+          <p>
+Our analysis on a <a href="https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page">publicly available real-world dataset</a> shows that major societal benefits are expected from deploying sustainable ridesharing policies, depending on the trade-off between environmental benefits and QoS. Thus, when environmental benefits are prioritised, our approach can yield a 70.78% reduction in CO₂ emissions (corresponding to up to 107.18 Tons per day) and a 80.08% reduction in traffic congestion, while achieving full occupancy on shared rides. On the other hand, when QoS is fully privileged (i.e., minimising delays experienced by the users), we can still achieve environmental benefits (7.85% reduction in CO₂ emissions, and 15.08% in the number of trips), showing that our approach can still lead to benefits even without impacting on the QoS. Notice that our approach also stands as valuable computational tool for policy makers concerned with shared mobility. Our approach provides the means to estimate the expected societal benefits of ridesharing from existing travelling data records. Thus, policy makers can leverage on our approach in order to come up with action plans aimed at achieving target societal impacts within some time frame, which is the common practice in policy making (e.g., refer to the <a href="https://energyplan.ny.gov/-/media/nysenergyplan/2015-overview.pdf">New York State Energy Plan</a>). Moreover, our study may also help policy makers conduct what-if analysis. For instance, considering that both environmental benefits and QoS are equally important, achieving a reduction of 16.60 Tons of CO₂ (10.97% reduction) per day would require reaching a 20% ridesharing adoption rate, namely doubling <a href="https://factfinder.census.gov/bkmk/table/1.0/en/ACS/16_5YR/S0801/0100000US">the current ridesharing adoption figures in the US</a>. Far more ambitious, and less feasible, appears to achieve a reduction of 78.86 Tons of CO₂ (52.08% reduction) per day, since these benefits require an 80% adoption rate.
+          </p>
+
+          <p class="mb-4">
+Our work opens up several interesting research lines, mainly regarding the design of incentive plans and pricing mechanisms that foster the adoption of ridesharing, increase the adoption rate, and the extension of our approach to incorporate the users’ preferences as a further optimisation criterion (in addition to environmental benefits and QoS).
+          </p>
 
         </div>
         <!-- Heading & Description -->
+
+        <!--Grid row-->
+        <div class="row mt-3 wow fadeIn  mb-3">
+
+          <!--Grid column-->
+          <div class="col-lg-5 col-xl-4 mb-4">
+            <!--Featured image-->
+            <div class="view overlay rounded z-depth-1">
+              <img src="img/simrs.png" class="img-fluid"
+                alt="">
+              <a href="http://necro.iiia.csic.es:5000" target="_blank">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+            <h3 class="mb-3 font-weight-bold dark-grey-text">
+              <strong>Ridesharing Simulator</strong>
+            </h3>
+            <p class="grey-text">A computational tool to quantify the benefits of ridesharing for policy makers and travellers</p>
+            <a href="http://necro.iiia.csic.es:5000" target="_blank"
+              class="btn btn-primary btn-md">Start simulator
+              <i class="fas fa-play ml-2"></i>
+            </a>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
 
         <!--Grid row-->
         <div class="row wow fadeIn">
@@ -155,7 +206,7 @@ During my MSCA project I tackled two prominent Collective Intelligence scenarios
             <div class="view overlay rounded z-depth-1-half">
               <div class="view overlay">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WYmxIVVlf3M" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
@@ -165,16 +216,10 @@ During my MSCA project I tackled two prominent Collective Intelligence scenarios
           <!--Grid column-->
           <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
             <h3 class="mb-3 font-weight-bold dark-grey-text">
-              <strong>MDB Quick Start</strong>
+              <strong>AAMAS 2018 Demonstration</strong>
             </h3>
-            <p class="grey-text">Get started with MDBootstrap, the world's most popular Material Design framework for
-              building responsive,
-              mobile-first sites.</p>
-            <p>
-              <strong>5 minutes, a few clicks and... done. You will be surprised at how easy it is.</strong>
-            </p>
-            <a href="https://www.youtube.com/watch?v=cXTThxoywNQ" target="_blank" class="btn btn-primary btn-md">Start
-              tutorial
+            <p class="grey-text">Video presented at <a href="http://ifaamas.org/Proceedings/aamas2018/pdfs/p1797.pdf">AAMAS 2018 Demonstration Track</a></p>
+            <a href="https://youtu.be/WYmxIVVlf3M" target="_blank" class="btn btn-primary btn-md">Watch video
               <i class="fas fa-play ml-2"></i>
             </a>
           </div>
@@ -182,78 +227,6 @@ During my MSCA project I tackled two prominent Collective Intelligence scenarios
 
         </div>
         <!--Grid row-->
-
-        <hr class="mb-5">
-
-        <!--Grid row-->
-        <div class="row mt-3 wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-lg-5 col-xl-4 mb-4">
-            <!--Featured image-->
-            <div class="view overlay rounded z-depth-1">
-              <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg" class="img-fluid"
-                alt="">
-              <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
-            <h3 class="mb-3 font-weight-bold dark-grey-text">
-              <strong>Bootstrap Automation</strong>
-            </h3>
-            <p class="grey-text">Learn how to create a smart website which learns your user and reacts properly to his
-              behavior.</p>
-            <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank"
-              class="btn btn-primary btn-md">Start tutorial
-              <i class="fas fa-play ml-2"></i>
-            </a>
-          </div>
-          <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-        <hr class="mb-5">
-
-        <!--Grid row-->
-        <div class="row wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-lg-5 col-xl-4 mb-4">
-            <!--Featured image-->
-            <div class="view overlay rounded z-depth-1">
-              <img src="https://mdbootstrap.com/wp-content/uploads/2018/01/push-fb.jpg" class="img-fluid" alt="">
-              <a href="https://mdbootstrap.com/education/tech-marketing/web-push-introduction/" target="_blank">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
-            <h3 class="mb-3 font-weight-bold dark-grey-text">
-              <strong>Web Push notifications</strong>
-            </h3>
-            <p class="grey-text">Push messaging provides a simple and effective way to re-engage with your users and in
-              this tutorial
-              you'll learn how to add push notifications to your web app</p>
-            <a href="https://mdbootstrap.com/education/tech-marketing/web-push-introduction/" target="_blank" class="btn btn-primary btn-md">Start
-              tutorial
-              <i class="fas fa-play ml-2"></i>
-            </a>
-          </div>
-          <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-        <hr class="mb-5">
 
       </section>
       <!--Section: Cards-->
