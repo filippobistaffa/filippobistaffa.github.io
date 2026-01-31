@@ -70,6 +70,10 @@ a:hover {
 	padding: 2em 30px;
 }
 
+h2 {
+	font-size: 24px;
+}
+
 .sidebar h1 {
 	font-size: 2.5em;
 	font-weight: 700;
@@ -83,7 +87,7 @@ a:hover {
 	width: 100%;
 }
 
-.details h3 {
+.details h2 {
 	font-weight: 600;
 	font-size: 1em;
 	color: #fff;
@@ -124,7 +128,7 @@ a:hover {
 	margin: 2em 0;
 }
 
-.entry h3 {
+.entry h2 {
 	color: #FFF;
 	padding: 5px 30px 5px 30px;
 	display: inline-block;
@@ -155,21 +159,21 @@ a:hover {
 	margin: 1.5em 1.5em 0em 2em;
 }
 
-.entry_details h4, .education_details h4 {
+.entry_details h3, .education_details h3 {
 	color: #333;
 	font-weight: 600;
 	font-size: 1.5em;
 	margin-bottom: 6px;
 }
 
-.entry_details h4 span, .education_details h4 span {
+.entry_details h3 span, .education_details h3 span {
 	font-size: 0.8em;
 	margin-left: 5px;
 	color: #999;
 	font-weight: 400;
 }
 
-.entry_details h6, .education_details h6 {
+.entry_details h4, .education_details h4 {
 	font-weight: 400;
 	margin-bottom: 1em;
 	font-size: 1em;
@@ -186,18 +190,18 @@ a:hover {
 	padding-bottom: 1em;
 }
 
-.education h3 {
+.education h2 {
 	background: #999;
 	color: #FFF;
 	padding: 5px 30px 5px 30px;
 	display: inline-block;
 }
 
-h3.clr1 {
+h2.clr1 {
 	background: #6ecadc;
 }
 
-h3.clr3 {
+h2.clr3 {
 	background: #6ecadc;
 }
 
@@ -298,7 +302,7 @@ h3.clr3 {
 		margin-right: 16px;
 	}
 
-	.entry h3, .education h3 {
+	.entry h2, .education h2 {
 		padding-left: 16px;
 		padding-right: 16px;
 	}
@@ -320,15 +324,15 @@ h3.clr3 {
 		display: none;
 	}
 
-	.entry h3, .education h3 {
+	.entry h2, .education h2 {
 		font-size: 1.2em;
 	}
 
-	.entry_details h4, .education_details h4 {
+	.entry_details h3, .education_details h3 {
 		font-size: 1.1em;
 	}
 
-	.entry_details h6, .education_details h6 {
+	.entry_details h4, .education_details h4 {
 		font-size: 0.8em;
 	}
 
